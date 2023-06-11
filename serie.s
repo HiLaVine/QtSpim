@@ -4,7 +4,7 @@
 .text
 ini:
     li $a3, 1   # Inicializa $a3 a 1
-    li $s0, 50   # Inicializa $s0 con el valor 6 (número de iteraciones)
+    li $s0, 6   # Inicializa $s0 con el valor 6 (número de iteraciones)
 
     jal main       # Salta a la etiqueta main. 
 
